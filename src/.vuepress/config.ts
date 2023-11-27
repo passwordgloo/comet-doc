@@ -5,12 +5,12 @@ import theme from "./theme.js";
 export default defineUserConfig({
   plugins: [
     docsearchPlugin({
-      appId: "6HVBCZLH25",
-      apiKey: "41c290e34a1c90e1b43f3cc8030cc16c",
+      appId: "G9OIK8333O",
+      apiKey: "def498a7cac46c1cb5808ceb0a45e24f",
       indexName: "Doc_comet",
 
       locales: {
-        "/zh/": {
+        "/": {
           placeholder: "搜索文档",
           translations: {
             button: {
@@ -51,7 +51,16 @@ export default defineUserConfig({
             },
           },
         },
+        "/en/": {
+          placeholder: "Search Documentation",
+          translations: {
+            button: {
+              buttonText: "Search Documentation",
+            },
+          },
+        },
       },
+    
     }),
   ],
 
