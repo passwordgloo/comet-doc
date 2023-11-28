@@ -6,9 +6,8 @@ export default defineUserConfig({
   plugins: [
     docsearchPlugin({
       appId: "G9OIK8333O",
-      apiKey: "def498a7cac46c1cb5808ceb0a45e24f",
+      apiKey: "efb5317f69b80cdcabfb520352731e09",
       indexName: "Doc_comet",
-
       locales: {
         "/": {
           placeholder: "搜索文档",
