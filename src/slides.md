@@ -158,10 +158,6 @@ You can use all kinds of markup in slides.
 
 <!-- .slide: data-auto-animate  -->
 
-## Layout
-
-![Logo](/logo.svg)
-
 <!-- .element: class="r-stretch" -->
 
 👆 The `r-stretch` class helper lets you resize an element, like an image or video, to cover the remaining vertical space in a slide.
