@@ -7,7 +7,6 @@ export const zhSidebar = sidebar({
     "/politics/principle/": "structure",
     "/politics/special/": "structure",
     "/politics/xjp/": "structure",
-    "/politics/xjp/volume4": "structure",
     "/public/base/": "structure",
     "/public/ability/": "structure",
     "/social/": "structure",
