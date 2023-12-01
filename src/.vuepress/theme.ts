@@ -76,7 +76,9 @@ export default hopeTheme({
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
-      attrs: true,
+      // attrs: true,
+
+      footnote:true,
 
       // install chart.js before enabling it
       // chart: true,
@@ -107,7 +109,7 @@ export default hopeTheme({
       // katex: true,
 
       // install mathjax-full before enabling it
-      // mathjax: true,
+      mathjax: true,
 
       mark: true,
 

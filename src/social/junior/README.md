@@ -1,11 +1,9 @@
 ---
-title: 初级助理社会工作师
+title: 前言
 date: 2023-02-02
 icon: bars
 cover: /cover/socialworker.png
 ---
-
-## 目录
 
 ### 社会工作综合能力<Badge text="理论" type="warning" />
 

@@ -1,7 +1,7 @@
 ---
-title: 中级社会工作师
+title: 前言
 icon: bars
 ---
-::: note
-内容将在下一版本更新
+::: warning
+内容将无限期拖延
 :::

@@ -11,6 +11,9 @@ devDependencies:
   '@vuepress/plugin-docsearch':
     specifier: 2.0.0-rc.0
     version: 2.0.0-rc.0(@algolia/client-search@4.20.0)(search-insights@2.11.0)
+  mathjax-full:
+    specifier: ^3.2.2
+    version: 3.2.2
   vue:
     specifier: ^3.3.8
     version: 3.3.9
@@ -19,7 +22,7 @@ devDependencies:
     version: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.0
-    version: 2.0.0-rc.0(@types/js-yaml@4.0.9)(vuepress@2.0.0-rc.0)
+    version: 2.0.0-rc.0(@types/js-yaml@4.0.9)(mathjax-full@3.2.2)(vuepress@2.0.0-rc.0)
 
 packages:
 
@@ -1851,7 +1854,7 @@ packages:
       markdown-it: 13.0.2
     dev: true
 
-  /@mdit/plugin-mathjax@0.6.5(markdown-it@13.0.2):
+  /@mdit/plugin-mathjax@0.6.5(markdown-it@13.0.2)(mathjax-full@3.2.2):
     resolution: {integrity: sha512-c2bslbe+z/cRd46aRzD/EumCdUejP49sCwwTAxB7JWjwiDCWO882q/OICrrqjWk+j7qxBFe0lFQwRXWHthCPGg==}
     engines: {node: '>= 18'}
     peerDependencies:
@@ -1866,6 +1869,7 @@ packages:
       '@mdit/plugin-tex': 0.6.5(markdown-it@13.0.2)
       '@types/markdown-it': 13.0.7
       markdown-it: 13.0.2
+      mathjax-full: 3.2.2
       upath: 2.0.1
     dev: true
 
@@ -3063,6 +3067,11 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
 
+  /commander@9.2.0:
+    resolution: {integrity: sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: true
+
   /common-tags@1.8.2:
     resolution: {integrity: sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==}
     engines: {node: '>=4.0.0'}
@@ -3344,6 +3353,11 @@ packages:
   /escape-string-regexp@1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
+    dev: true
+
+  /esm@3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
+    engines: {node: '>=6'}
     dev: true
 
   /esprima@4.0.1:
@@ -4070,6 +4084,15 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
+  /mathjax-full@3.2.2:
+    resolution: {integrity: sha512-+LfG9Fik+OuI8SLwsiR02IVdjcnRCy5MufYLi0C3TdMT56L/pjB0alMVGgoWJF8pN9Rc7FESycZB9BMNWIid5w==}
+    dependencies:
+      esm: 3.2.25
+      mhchemparser: 4.2.1
+      mj-context-menu: 0.6.1
+      speech-rule-engine: 4.0.7
+    dev: true
+
   /mdurl@1.0.1:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: true
@@ -4085,6 +4108,10 @@ packages:
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+    dev: true
+
+  /mhchemparser@4.2.1:
+    resolution: {integrity: sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==}
     dev: true
 
   /micromatch@4.0.5:
@@ -4120,6 +4147,10 @@ packages:
 
   /mitt@3.0.1:
     resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
+    dev: true
+
+  /mj-context-menu@0.6.1:
+    resolution: {integrity: sha512-7NO5s6n10TIV96d4g2uDpG7ZDpIhMh0QNfGdJw/W47JswFcosz457wqz/b5sAKvl12sxINGFCn80NZHKwxQEXA==}
     dev: true
 
   /ms@2.1.2:
@@ -4683,6 +4714,15 @@ packages:
   /sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
+    dev: true
+
+  /speech-rule-engine@4.0.7:
+    resolution: {integrity: sha512-sJrL3/wHzNwJRLBdf6CjJWIlxC04iYKkyXvYSVsWVOiC2DSkHmxsqOhEeMsBA9XK+CHuNcsdkbFDnoUfAsmp9g==}
+    hasBin: true
+    dependencies:
+      commander: 9.2.0
+      wicked-good-xpath: 1.3.0
+      xmldom-sre: 0.1.31
     dev: true
 
   /sprintf-js@1.0.3:
@@ -5328,7 +5368,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-plugin-md-enhance@2.0.0-rc.0(@types/js-yaml@4.0.9)(vuepress@2.0.0-rc.0):
+  /vuepress-plugin-md-enhance@2.0.0-rc.0(@types/js-yaml@4.0.9)(mathjax-full@3.2.2)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-sDP7gEp62phCkPuTtJaLwzKI53b94zqLQ2zajlPkDGTswPyxjOOvCdt2M3bcYM2gnSAV6szZhWuh7VCs1i5D7g==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -5387,7 +5427,7 @@ packages:
       '@mdit/plugin-include': 0.6.5(markdown-it@13.0.2)
       '@mdit/plugin-katex': 0.6.5(markdown-it@13.0.2)
       '@mdit/plugin-mark': 0.6.5(markdown-it@13.0.2)
-      '@mdit/plugin-mathjax': 0.6.5(markdown-it@13.0.2)
+      '@mdit/plugin-mathjax': 0.6.5(markdown-it@13.0.2)(mathjax-full@3.2.2)
       '@mdit/plugin-stylize': 0.6.5(markdown-it@13.0.2)
       '@mdit/plugin-sub': 0.6.5(markdown-it@13.0.2)
       '@mdit/plugin-sup': 0.6.5(markdown-it@13.0.2)
@@ -5404,6 +5444,7 @@ packages:
       balloon-css: 1.2.0
       js-yaml: 4.1.0
       markdown-it: 13.0.2
+      mathjax-full: 3.2.2
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
       vuepress: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
@@ -5654,7 +5695,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-rc.0(@types/js-yaml@4.0.9)(vuepress@2.0.0-rc.0):
+  /vuepress-theme-hope@2.0.0-rc.0(@types/js-yaml@4.0.9)(mathjax-full@3.2.2)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-wZgmpRo9jE+cy7aHTdU9fhjRayVpe88GSCnRMfkzJxpDDlvuiItmHNJAGTg3E0NQHzhjI5pbuVGGqQoX7qsDxg==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -5700,7 +5741,7 @@ packages:
       vuepress-plugin-copy-code2: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
       vuepress-plugin-copyright2: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
       vuepress-plugin-feed2: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
-      vuepress-plugin-md-enhance: 2.0.0-rc.0(@types/js-yaml@4.0.9)(vuepress@2.0.0-rc.0)
+      vuepress-plugin-md-enhance: 2.0.0-rc.0(@types/js-yaml@4.0.9)(mathjax-full@3.2.2)(vuepress@2.0.0-rc.0)
       vuepress-plugin-photo-swipe: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
       vuepress-plugin-pwa2: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
       vuepress-plugin-reading-time2: 2.0.0-rc.0(vuepress@2.0.0-rc.0)
@@ -5829,6 +5870,10 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
+    dev: true
+
+  /wicked-good-xpath@1.3.0:
+    resolution: {integrity: sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==}
     dev: true
 
   /workbox-background-sync@7.0.0:
@@ -5995,6 +6040,11 @@ packages:
     hasBin: true
     dependencies:
       sax: 1.3.0
+    dev: true
+
+  /xmldom-sre@0.1.31:
+    resolution: {integrity: sha512-f9s+fUkX04BxQf+7mMWAp5zk61pciie+fFLC9hX9UVvCeJQfNHRHXpeo5MPcR0EUf57PYLdt+ZO4f3Ipk2oZUw==}
+    engines: {node: '>=0.1'}
     dev: true
 
   /y18n@4.0.3:

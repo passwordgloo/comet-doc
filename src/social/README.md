@@ -10,7 +10,7 @@ features:
   - title: 社会工作者考试
     icon: circle-dot
     details: 社会工作者入职考试
-    link: /social/work/
+    link: https://1m29yg5p67.k.topthink.com/@socialwork
 
   - title: 初级助理社会工作师
     icon: futbol
