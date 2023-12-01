@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c,a as e}from"./app-_LJaw1Mw.js";const o={},s=e("div",{class:"hint-container warning"},[e("p",{class:"hint-container-title"},"注意"),e("p",null,"内容将无限期拖延")],-1),a=[s];function i(r,_){return n(),c("div",null,a)}const f=t(o,[["render",i],["__file","index.html.vue"]]);export{f as default};
