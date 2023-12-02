@@ -1,3 +1,6 @@
+---
+icon: square-1
+---
 # head
 ::: warning
 - You can use   `ctrl + /` to add annotation in Vs code
@@ -18,7 +21,6 @@ meta lable is very useful for SEO(Search Engine Optimization) which can find you
 ```html
 <meta charset="utf-8" />
 ```
-This element specifies the document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language. This means that your web page will be able to handle displaying any language; it's therefore a good idea to set this on every web page you create!
 
 ### author
 
@@ -32,7 +34,6 @@ This element specifies the document's character encoding — the character set t
 ```
 ## link
 ### favicon icon
-To further enrich your site design, you can add references to custom icons in your metadata, and these will be displayed in certain contexts. The most commonly used of these is the favicon (short for "favorites icon", referring to its use in the "favorites" or "bookmarks" lists in browsers).
 ```html
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 ```

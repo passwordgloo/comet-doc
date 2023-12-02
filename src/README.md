@@ -33,27 +33,22 @@ highlights:
       - title: 马克思主义基本原理
         icon: compass
         details: 唯物辩证法与历史唯物主义
-        link: /politics/principle/
+        link: https://1m29yg5p67.k.topthink.com/@marxism
 
       - title: 思想道德与法律基础
         icon: paper-plane
         details: 信念、法律、道德
-        link: /politics/law/
+        link: https://1m29yg5p67.k.topthink.com/@legistation
 
       - title: 毛泽东思想与中国特色社会主义理论体系
         icon: star
         details: 知所从来，奋勇前进
-        link: /politics/mzdzt/
+        link: https://1m29yg5p67.k.topthink.com/@modern-china
 
       - title: 中国近代史纲要
         icon: calendar-days
         details: 涅磐重生
-        link: /politics/history/
-
-      - title: 提示
-        icon: lightbulb
-        details: 专题归纳
-        link: /politics/special/
+        link: https://1m29yg5p67.k.topthink.com/@history
 
       - title: 习近平系列著作
         icon: gem
@@ -93,7 +88,7 @@ highlights:
     features:
       - title: HTML5
         details: 认识网页结构
-        link: /html/
+        link: https://1m29yg5p67.k.topthink.com/@html
 
       - title: CSS3
         details: 学习CSS3、Scss语法
@@ -101,7 +96,7 @@ highlights:
 
       - title: Javascript
         details: Javascript语法
-        link: /js/
+        link: https://www.runoob.com/js/js-tutorial.html
 
       - title: Typescript
         details: Javascript增强版本

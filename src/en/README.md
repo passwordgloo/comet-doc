@@ -2,8 +2,8 @@
 heroFullScreen: true
 home: true
 heroImage: /logo/foresee.svg
-heroText: Code Library
-tagline: 但忻耳目得所遇，不觉山高几许寻
+heroText: Comet Library
+tagline: from zero to one create the world
 bgImage: /light/sky.jpg
 bgImageDark: /dark/comet.jpg
 bgImageStyle:

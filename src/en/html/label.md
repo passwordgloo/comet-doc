@@ -1,4 +1,7 @@
-# text fundamentals
+---
+icon: square-2
+---
+# labels
 ## paragraph
 In HTML, each paragraph has to be wrapped in a `<p>` element, like so:
 ::: normal-demo
@@ -36,6 +39,27 @@ This is a `<span>` element. It has no semantics.You use it to wrap content when 
 You can visit <a href="https://github.com/passwordgloo" target="_blank">my github page</a> to learn more about me
 ```
 :::
+`target="_blank`: new tab<br>
+`target="_self`:  current page
+
+## router
+```bash
+./
+../   //upper layer
+~/    //root
+```
+
+## media
+:::: tabs
+@tab video
+```html
+<video src="file_address.mp4" controls autoplay muted loop></video>
+```
+@tab audio
+```html
+<audio src="file_address" controls autoplay loop></audio>
+```
+::::
 ## list
 :::: tabs
 @tab Ordered
@@ -62,3 +86,33 @@ You can visit <a href="https://github.com/passwordgloo" target="_blank">my githu
 :::
 @tab other list
 ::::
+
+## table
+::: tip emmet
+type `table` to set up a new table
+:::
+```html
+<table>
+  <caption>table title</caption>
+<tbody>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</tfoot>
+</table>
+```
