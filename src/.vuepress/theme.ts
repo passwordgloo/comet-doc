@@ -62,6 +62,9 @@ export default hopeTheme({
   //   },
   // },
 
+    // 文件排序
+  sidebarSorter: ["readme", "filename", "order", "title"],
+
   plugins: {
     // You should generate and use your own comment service
     
@@ -75,7 +78,7 @@ export default hopeTheme({
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
-      align: true,
+      // align: true,
       // attrs: true,
 
       footnote:true,

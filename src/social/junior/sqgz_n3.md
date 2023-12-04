@@ -1,6 +1,6 @@
 ---
 date: 2023-02-07
-icon: cannabis
+icon: square-3
 ---
 
 # 人类行为与社会环境

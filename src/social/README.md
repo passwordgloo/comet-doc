@@ -19,7 +19,7 @@ features:
 
   - title: 中级社会工作师
     icon: futbol
-    details: 中级社会证考三科哈
+    details: 中级社工证考三科哈
     link: /social/senior/
 
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2023-02-07
-icon: cannabis
+icon: square-6
 ---
 
 # 社区工作方法

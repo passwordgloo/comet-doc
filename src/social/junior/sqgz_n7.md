@@ -1,6 +1,6 @@
 ---
 date: 2023-02-07
-icon: cannabis
+icon: square-7
 ---
 
 # 社区工作行政

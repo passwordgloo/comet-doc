@@ -1,6 +1,6 @@
 ---
 date: 2023-02-07
-icon: cannabis
+icon: square-2
 ---
 
 # 社区价值观与专业伦理

@@ -1,6 +1,6 @@
 ---
 date: 2023-05-03
-icon: carrot
+icon: square
 ---
 
 # 残疾人社会工作

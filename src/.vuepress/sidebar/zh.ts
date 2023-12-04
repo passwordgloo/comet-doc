@@ -4,5 +4,7 @@ export const zhSidebar = sidebar({
     "/politics/xjp/": "structure",
     "/public/base/": "structure",
     "/public/ability/": "structure",
-    "/social/": "structure",
+    "/social/junior/": "structure",
+    "/social/senior/law/": "structure",
+
 });
