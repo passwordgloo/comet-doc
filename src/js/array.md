@@ -27,10 +27,6 @@ console.log(names[1])
 console.log(nameslength)
 ```
 
-## 数组操作
-
-
-
 ## 案例
 
 ### 求数组所有元素的和以及平均值
