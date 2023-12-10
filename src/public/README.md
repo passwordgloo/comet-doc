@@ -3,7 +3,7 @@ home: true
 icon: briefcase
 title: 事业/公务
 date: 2023-03-02
-heroImage: logo/politics.svg
+heroImage: logo/box.svg
 heroText: 事业编制/公务员
 tagline: 江山就是人民，人民就是江山
 features:

@@ -3,7 +3,7 @@ home: true
 icon: briefcase
 title: 社会工作者
 date: 2023-03-02
-heroImage: logo/politics.svg
+heroImage: logo/social.svg
 heroText: 社会工作者
 tagline: 扎根基层 服务人民
 features:

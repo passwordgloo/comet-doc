@@ -2,6 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
     "/politics/xjp/": "structure",
+    "/education/principle": "structure",
     "/public/base/": "structure",
     "/public/ability/": "structure",
     "/social/junior/": "structure",

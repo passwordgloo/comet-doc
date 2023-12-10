@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59.02 68.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变-3);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变);
+      }
+
+      .cls-3 {
+        fill: url(#_未命名的渐变-2);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变" data-name="未命名的渐变" x1="0" y1="17.18" x2="59.02" y2="17.18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231815"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变-2" data-name="未命名的渐变" x1="14.03" y1="21.03" x2="33.23" y2="34.95" xlink:href="#_未命名的渐变"/>
+    <linearGradient id="_未命名的渐变-3" data-name="未命名的渐变" y1="42.95" x2="29.51" y2="42.95" xlink:href="#_未命名的渐变"/>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <polygon class="cls-2" points="59.02 17.18 29.51 0 0 17.18 29.51 34.36 59.02 17.18"/>
+    <polygon class="cls-3" points="29.51 34.36 29.51 68.72 59.02 51.54 59.02 17.18 29.51 34.36"/>
+    <polygon class="cls-1" points="0 17.18 0 51.54 29.51 68.72 29.51 34.36 0 17.18"/>
+  </g>
+</svg>

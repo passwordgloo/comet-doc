@@ -50,14 +50,14 @@ export default defineUserConfig({
             },
           },
         },
-        "/en/": {
-          placeholder: "Search Documentation",
-          translations: {
-            button: {
-              buttonText: "Search Documentation",
-            },
-          },
-        },
+        // "/en/": {
+        //   placeholder: "Search Documentation",
+        //   translations: {
+        //     button: {
+        //       buttonText: "Search Documentation",
+        //     },
+        //   },
+        // },
       },
     
     }),
@@ -71,11 +71,11 @@ export default defineUserConfig({
       title: "星辰文库",
       description: "风起云涌",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "Comet Library",
-      description: "code pragramme turtorial",
-    }
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "Comet Library",
+    //   description: "code pragramme turtorial",
+    // }
   },
 
   theme,

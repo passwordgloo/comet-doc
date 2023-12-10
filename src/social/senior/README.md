@@ -3,7 +3,7 @@ home: true
 icon: book
 title: 中级社工证
 date: 2023-03-02
-heroImage: logo/socialSenior.svg
+heroImage: logo/social.svg
 heroText: 中级社工证
 tagline: 考点多 内容杂
 features:

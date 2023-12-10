@@ -13,6 +13,7 @@ export const zhNavbar = navbar([
     icon: "book",
     children: [// { text: "计算机",icon:"computer",link: "computer" },
       { text: "政治", icon: "bookmark", link: "politics" },
+      { text: "教育学", icon: "bookmark", link: "education" },
     ],
   },
   {
