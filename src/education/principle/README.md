@@ -1,5 +1,5 @@
 ---
-icon: square-1
+icon: square-a
 ---
 
 # 教育学概述

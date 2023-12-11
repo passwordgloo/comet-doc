@@ -8,19 +8,19 @@ heroText: 教育
 tagline: 生物人到社会人
 features:
   - title: 教育学原理
-    icon: compass
+    icon: fan
     details: 教育的本质属性、教育学研究内容
     link: /education/principle/
 
-  # - title: 思想道德与法律基础
-  #   icon: paper-plane
-  #   details: 信念、法律、道德
-  #   link: https://1m29yg5p67.k.topthink.com/@legistation
+  - title: 中国教育史
+    icon: paper-plane
+    details: 古老中华的教育实践
+    link: /education/china/1.md
 
-  # - title: 毛泽东思想与中国特色社会主义理论体系
-  #   icon: star
-  #   details: 知所从来，奋勇前进
-  #   link: https://1m29yg5p67.k.topthink.com/@modern-china
+  - title: 外国教育史
+    icon: leaf-maple
+    details: 欧罗巴大陆上的教育实践
+    link: /education/foreign/1.md
 
   # - title: 中国近代史纲要
   #   icon: calendar-days
