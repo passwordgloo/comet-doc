@@ -15,11 +15,11 @@ features:
   - title: 初级助理社会工作师
     icon: futbol
     details: 初级社工证理论与实务
-    link: /social/junior/
+    link: https://iglooblog.top:81/docs/social/junior/
 
   - title: 中级社会工作师
     icon: futbol
     details: 中级社工证考三科哈
-    link: /social/senior/
+    link: https://iglooblog.top:81/docs/social/senior/
 
 ---
