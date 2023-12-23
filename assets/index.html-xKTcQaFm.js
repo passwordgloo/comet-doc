@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b9b0ba10","path":"/education/china/","title":"China","lang":"zh-CN","frontmatter":{"title":"China","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};
