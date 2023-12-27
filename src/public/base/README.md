@@ -18,6 +18,6 @@ icon: bars
 
 ::: info
 
-哲学模块包含[马克思主义哲学](/politics/principle/)、[毛泽东思想与中国特色社会主义理论体系](/politics/mzdzt/)
+哲学模块包含[马克思主义哲学](https://iglooblog.top:82/politics/principle/)、[毛泽东思想与中国特色社会主义理论体系](https://iglooblog.top:82/politics/mzdzt/1.html)
 
 :::

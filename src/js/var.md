@@ -1,5 +1,6 @@
 ---
 title: 变量
+icon: square-5
 ---
 
 # 变量是什么

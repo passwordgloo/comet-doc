@@ -1,6 +1,6 @@
 /* scrollbar style */
 ::-webkit-scrollbar-thumb:active {
-  background: #00BFFF;
+  background: #FF6347;
 }
 
 html {
@@ -256,13 +256,13 @@ kbd {
 
 em {
   font-style: normal;
-  border-bottom: 4px dotted #00BFFF;
+  border-bottom: 4px dotted #FF6347;
 }
 
 s {
   text-decoration-style: wavy;
   text-decoration-line: underline;
-  text-decoration-color: #00BFFF;
+  text-decoration-color: #FF6347;
 }
 
 strong {

@@ -25,6 +25,14 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "代码",
+    icon: "list-tree",
+    prefix: "/",
+    children: [ { text: "Javascript", icon: 'square-js', link: "js" },
+      // { text: "事业/公务", icon: 'fan', link: "public" },
+    ],
+  },
+  {
     text: "软件",
     icon: "block-question",
     prefix: "/",

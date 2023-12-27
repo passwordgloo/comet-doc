@@ -20,8 +20,4 @@ Thomas Knoll 最初只是出于爱好编写一个灰阶图片工具[^1]，在兄
 :::
 访问Adobe Creative Cloud[官网](https://www.adobe.com/cn/lead/creativecloud/business.html)，新人注册账号可免费试用7天正版PS
 
-
-
-![image-20231213204837455](https://file.iglooblog.top/software/image-20231213204837455.png)
-
 [^1]: 当时的Mac无法正常显示带灰色的黑白图片

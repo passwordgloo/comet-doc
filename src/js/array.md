@@ -1,5 +1,6 @@
 ---
 title: 数组
+icon: square-1
 ---
 ::: tip 介绍
 数组(Array)是一种可以按照顺序保存多个数据
