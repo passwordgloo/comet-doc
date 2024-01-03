@@ -26,6 +26,7 @@ h2::before {
   content: "";
   padding-left: .5em;
   border-left: 8px solid var(--theme-color);
+  border-radius: 20%;
 }
 
 h3 {

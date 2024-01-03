@@ -33,27 +33,22 @@ highlights:
       - title: 马克思主义基本原理
         icon: compass
         details: 唯物辩证法与历史唯物主义
-        link: https://1m29yg5p67.k.topthink.com/@marxism
+        link: https://iglooblog.top:82/politics/principle/
 
       - title: 思想道德与法律基础
         icon: paper-plane
         details: 信念、法律、道德
-        link: https://1m29yg5p67.k.topthink.com/@legistation
+        link: https://iglooblog.top:82/politics/law/1.html
 
       - title: 毛泽东思想与中国特色社会主义理论体系
         icon: star
         details: 知所从来，奋勇前进
-        link: https://1m29yg5p67.k.topthink.com/@modern-china
+        link: https://iglooblog.top:82/politics/mzdzt/1.html
 
       - title: 中国近代史纲要
         icon: calendar-days
         details: 涅磐重生
-        link: https://1m29yg5p67.k.topthink.com/@history
-
-      - title: 习近平系列著作
-        icon: gem
-        details: 系统论述习近平治国思想
-        link: /politics/xjp/
+        link: https://iglooblog.top:82/politics/history/1.html
 
   - header: 公共事务
     description: 公共管理是采用科学管理体系、有效提供公共服务、提高运作效率，致力于治理体系建设的学科
@@ -63,7 +58,7 @@ highlights:
     highlights:
       - title: 社会工作者考试
         details: 社会工作者入职考试
-        link: /social/work/
+        link: https://1m29yg5p67.k.topthink.com/@socialwork
 
       - title: 初级助理社会工作师
         details: 初级社工证理论与实务
