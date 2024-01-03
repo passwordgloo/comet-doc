@@ -31,11 +31,6 @@ features:
   #   icon: lightbulb
   #   details: 专题归纳
   #   link: /politics/special/
-
-  - title: 习近平系列著作
-    icon: gem
-    details: 系统论述习近平治国思想
-    link: /politics/xjp/
 ---
 
 ## 马克思主义原理
