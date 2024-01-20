@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://blog.csnd.net/passwordgloo",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4336400_d1kcqi6dhx.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4336400_yx9e1cvrbc.css",
 
   logo: "/logo/foresee.svg",
 

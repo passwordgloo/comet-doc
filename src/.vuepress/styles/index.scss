@@ -39,13 +39,36 @@ h3 {
     font-weight: 500;
     line-height: 1.43;
     font-family: $font-family;
-    border-bottom: 1px dashed var(--theme-color);
 }
 
-h4 {
-    color: var(--theme-color);
+h3::after{
+    content:'';
+    display:block;
+    margin-top:$title-margin;
+    width:4rem;
+    border-radius:.1rem;
+    height:.2rem;
+    background-color: var(--theme-color);
+}
+
+
+h4{
     font-weight: 300;
     font-size: 1.4em;
+    font-family: $font-family;
+}
+
+h4::after{
+    content:'';
+    display: block;
+    margin-top:$title-margin;
+    border-bottom: 2px dashed var(--theme-color);
+}
+
+h5 {
+    color: var(--theme-color);
+    font-weight: 300;
+    font-size: 1.2em;
     font-family: $font-family;
 }
 

@@ -5,7 +5,7 @@ icon: home
 title: 星辰文库
 heroImage: /logo/foresee.svg
 bgImage: /light/sky.jpg
-bgImageDark: /dark/comet.gif
+bgImageDark: /dark/comet.png
 bgImageStyle:
   background-attachment: fixed
 heroText: 星辰文库
