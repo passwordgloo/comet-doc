@@ -155,7 +155,7 @@ export default hopeTheme({
 
     docsearch:({
       appId: "G9OIK8333O",
-      apiKey: "b2bbd617b9a7a442b05293c07b3dc0a0",
+      apiKey: "efb5317f69b80cdcabfb520352731e09",
       indexName: "Doc_comet",
       locales: {
         "/": {

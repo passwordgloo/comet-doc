@@ -5,4 +5,5 @@ export const zhSidebar = sidebar({
     '/public/ability':"structure",
     '/social/junior/':"structure",
     '/social/senior/':"structure",
+    "/ps/": "structure",
 });

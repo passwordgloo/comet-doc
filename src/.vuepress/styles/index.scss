@@ -13,63 +13,65 @@ html {
     scrollbar-width: auto;
 }
 
-
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 2000;
     line-height: 1.2;
-    font-family: $font-family;
+    text-align: center;
 }
 
 h2 {
     font-size: 1.8em;
     line-height: 1.2;
-    font-family: $font-family;
 }
 
 h2::before {
     content: "";
-    padding-left: .5em;
+    padding-left: .3em;
     border-left: 8px solid var(--theme-color);
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
+    font-weight: 700;
+    &::after{
+        content:'';
+        display: block;
+        width:5rem;
+        height:.3rem;
+        background-color: var(--theme-color);
+        border-radius: .5rem;
+    }
+}
+
+
+h4 {
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.43;
-    font-family: $font-family;
-}
-
-h3::after{
-    content:'';
-    display:block;
-    margin-top:$title-margin;
-    width:4rem;
-    border-radius:.1rem;
-    height:.2rem;
-    background-color: var(--theme-color);
-}
-
-
-h4{
-    font-weight: 300;
-    font-size: 1.4em;
-    font-family: $font-family;
-}
-
-h4::after{
-    content:'';
-    display: block;
-    margin-top:$title-margin;
-    border-bottom: 2px dashed var(--theme-color);
+    border-bottom: 1px dashed var(--theme-color);
 }
 
 h5 {
     color: var(--theme-color);
     font-weight: 300;
-    font-size: 1.2em;
-    font-family: $font-family;
+    font-size: 1.2rem;
+    &:hover{
+        animation: bounce 2s infinite;
+    }
+}
+
+@keyframes bounce{
+    0%,100%,20%,50%,80%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-1rem);
+    }
+    60%{
+        transform:translateY(-1rem)
+    }
 }
 
 p,
@@ -156,17 +158,81 @@ span[alt="black"] {
     background-blend-mode: multiply,multiply;
 }
 
-blockquote {
-    border: none;
-    padding: 12px 0 8px 10px;
-    line-height: inherit;
-    min-height: 20px;
-    margin: 1em 0;
-    border-left: 4px solid var(--theme-color);
+@mixin blockquote-common {
     text-indent: 0em;
-    color: var(--theme-color);
-    background-color: #F2F2F2;
+    line-height: inherit;
+    min-height: 1.5rem;
+    margin: 1em 0;
+    padding: 12px 0 8px 10px;
+    border-radius:6px;
+    border-left: 8px solid transparent;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
     overflow: hidden;
+}
+
+@mixin blockquote-img {
+    position: relative;
+    transform: translateX(-80px);
+    height: 1rem;
+    margin-right: .2rem;
+}
+
+blockquote {
+    @include blockquote-common(); 
+    color: var(--theme-color);
+    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color), linear-gradient(0deg,var(--theme-color) 0%,var(--theme-color) 100%);
+
+    img {
+        @include blockquote-img();
+        filter: drop-shadow(var(--theme-color) 80px 0);
+    }
+}
+
+h2+blockquote,blockquote[alt="green"]{
+    @include blockquote-common();
+    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color), linear-gradient(0deg,#00e3ae 0%,#9be15d 100%);
+    color: #00CD66;
+}
+
+/* change svg color */
+h2+blockquote img {
+    @include blockquote-img();
+    filter: drop-shadow(#00CD66 80px 0);
+    
+}
+
+h3+blockquote,blockquote[alt="blue"]{
+    @include blockquote-common();
+    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color), linear-gradient(0deg,#4facfe 0%, #00f2fe 100%);
+    color: #00BFFF;
+}
+
+h3+blockquote img {
+    @include blockquote-img();
+    filter: drop-shadow(#00BFFF 80px 0);
+}
+
+h4+blockquote,blockquote[alt="orange"]{
+    @include blockquote-common();
+    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color),  linear-gradient(0deg, #fc6076, #ff9a44);
+    color: #FF8C00;
+}
+
+h4+blockquote img {
+    @include blockquote-img();
+    filter: drop-shadow(#FF8C00 80px 0);
+}
+
+h5+blockquote,blockquote[alt="purple"]{
+    @include blockquote-common();
+    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color), linear-gradient(0deg, #8F41E9, #578AEF);
+    color:#8F41E9;
+}
+
+h5+blockquote img {
+    @include blockquote-img();
+    filter: drop-shadow(#A531DC 80px 0);
 }
 
 .dropdown-wrapper,a.nav-link,.repo-link,.outlook-icon{
@@ -259,7 +325,6 @@ td {
 th,
 td {
     padding: .6em;
-    font-family: $font-family;
 }
 
 table th {

@@ -3,7 +3,7 @@ home: true
 title: 政治
 icon: landmark
 date: 2022-07-30
-heroImage: /logo/dome.svg
+heroImage: /logo/cube.svg
 heroText: 政治
 tagline: 人是政治动物
 features:
