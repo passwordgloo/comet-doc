@@ -10,17 +10,17 @@ features:
   - title: 教育学原理
     icon: fan
     details: 教育的本质属性、教育学研究内容
-    link: https://iglooblog.top:82/education/principle/1.html
+    link: /education/principle/1.html
 
   - title: 中国教育史
     icon: paper-plane
     details: 古老中华的教育实践
-    link: https://iglooblog.top:82/education/china/1.html
+    link: /education/china/1.html
 
   - title: 外国教育史
     icon: leaf-maple
     details: 欧罗巴大陆上的教育实践
-    link: https://iglooblog.top:82/education/foreign/1.html
+    link: /education/foreign/1.html
 
   # - title: 中国近代史纲要
   #   icon: calendar-days
