@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-000a2ed3","path":"/politics/mzdzt/","title":"Mzdzt","lang":"zh-CN","frontmatter":{"title":"Mzdzt","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};
