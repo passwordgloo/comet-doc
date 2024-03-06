@@ -6,7 +6,6 @@
     background: $focus-color;
 }
 
-
 html {
     cursor: url(/light/pointer.cur),pointer;
     scrollbar-color: var(--theme-color) rgba(0, 0, 0, 0.2);
@@ -181,7 +180,7 @@ span[alt="black"] {
 blockquote {
     @include blockquote-common(); 
     color: var(--theme-color);
-    background-image: linear-gradient(to right, $blockquote-color,$blockquote-color), linear-gradient(0deg,var(--theme-color) 0%,var(--theme-color) 100%);
+    background-image: linear-gradient(to right, red), linear-gradient(0deg,var(--theme-color) 0%,var(--theme-color) 100%);
 
     img {
         @include blockquote-img();

@@ -167,7 +167,7 @@ blockquote {
   background-origin: padding-box, border-box;
   overflow: hidden;
   color: var(--theme-color);
-  background-image: linear-gradient(to right, #f2f2f2, #f2f2f2), linear-gradient(0deg, var(--theme-color) 0%, var(--theme-color) 100%);
+  background-image: linear-gradient(to right, red), linear-gradient(0deg, var(--theme-color) 0%, var(--theme-color) 100%);
 }
 
 blockquote img {
@@ -189,7 +189,7 @@ h2 + blockquote, blockquote[alt="green"] {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   overflow: hidden;
-  background-image: linear-gradient(to right, #f2f2f2, #f2f2f2), linear-gradient(0deg, #00e3ae 0%, #9be15d 100%);
+  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #00e3ae 0%, #9be15d 100%);
   color: #00CD66;
 }
 
@@ -213,7 +213,7 @@ h3 + blockquote, blockquote[alt="blue"] {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   overflow: hidden;
-  background-image: linear-gradient(to right, #f2f2f2, #f2f2f2), linear-gradient(0deg, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #4facfe 0%, #00f2fe 100%);
   color: #00BFFF;
 }
 
@@ -236,7 +236,7 @@ h4 + blockquote, blockquote[alt="orange"] {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   overflow: hidden;
-  background-image: linear-gradient(to right, #f2f2f2, #f2f2f2), linear-gradient(0deg, #fc6076, #ff9a44);
+  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #fc6076, #ff9a44);
   color: #FF8C00;
 }
 
@@ -259,7 +259,7 @@ h5 + blockquote, blockquote[alt="purple"] {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   overflow: hidden;
-  background-image: linear-gradient(to right, #f2f2f2, #f2f2f2), linear-gradient(0deg, #8F41E9, #578AEF);
+  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #8F41E9, #578AEF);
   color: #8F41E9;
 }
 
