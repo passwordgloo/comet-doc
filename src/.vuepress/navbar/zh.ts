@@ -31,6 +31,7 @@ export const zhNavbar = navbar([
     children: [
       { text: "PS", icon: 'image', link: "ps" },
       { text: "AI", icon: 'droplet', link: "illustrator" },
+      { text: "PPT", icon: 'person-chalkboard', link: "ppt" }
       // { text: "Access", icon: 'database', link: "access" },
     ],
   },
