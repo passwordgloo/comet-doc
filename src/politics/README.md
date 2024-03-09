@@ -15,17 +15,17 @@ features:
   - title: 思想道德与法律基础
     icon: paper-plane
     details: 信念、法律、道德
-    link: /politics/law/1.html
+    link: /politics/law/0.html
 
   - title: 毛泽东思想与中国特色社会主义理论体系
     icon: star
     details: 知所从来，奋勇前进
-    link: /politics/mzdzt/1.html
+    link: /politics/mzdzt/0.html
 
   - title: 中国近代史纲要
     icon: calendar-days
     details: 涅磐重生
-    link: /politics/history/1.html
+    link: /politics/history/
 
   # - title: 提示
   #   icon: lightbulb

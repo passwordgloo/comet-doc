@@ -3,6 +3,7 @@ icon: brush
 title: PS简介
 date: 2023-11-03
 author: 小鹿
+index: false
 ---
 
 ## 发展历程

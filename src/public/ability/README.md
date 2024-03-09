@@ -1,6 +1,7 @@
 ---
 title: 目录
 icon: ghost
+index: false
 ---
 
 ::: danger 警告

@@ -2,6 +2,7 @@
 title: 前言
 date: 2023-02-02
 icon: bars
+index: false
 ---
 
 ### 社会工作综合能力 <Badge text="理论" type="warning" />

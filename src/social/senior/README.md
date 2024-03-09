@@ -1,6 +1,7 @@
 ---
 title: 中级考试前言
 icon: list-timeline
+index: false
 ---
 
 ## 法律基础

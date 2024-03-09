@@ -1,6 +1,7 @@
 ---
 title: 目录
 icon: bars
+index: false
 ---
 
 ## 法律

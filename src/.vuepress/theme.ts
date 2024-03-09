@@ -60,6 +60,9 @@ export default hopeTheme({
   //   },
   // },
 
+  // 文件排序
+  sidebarSorter: ["readme", "filename", "order", "title"],
+
   plugins: {
     // You should generate and use your own comment service
     // comment: {
@@ -118,13 +121,13 @@ export default hopeTheme({
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+      gfm: true,
 
       // install katex before enabling it
       // katex: true,
 
       // install mathjax-full before enabling it
-      // mathjax: true,
+      mathjax: true,
 
       // install mermaid before enabling it
       // mermaid: true,
