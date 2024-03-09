@@ -3,7 +3,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  // hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
     name: "麦田守望者",
@@ -19,25 +19,22 @@ export default hopeTheme({
   docsDir: "src",
 
   locales: {
-    /**
-     * Chinese locale config
-    */
-        "/": {
-          // navbar
-          navbar: zhNavbar,
-    
-          // sidebar
-          sidebar: zhSidebar,
-    
-          footer: "默认页脚",
-    
-          displayFooter: true,
-    
-          // page meta
-          metaLocales: {
-            editLink: "在 GitHub 上编辑此页",
-          },
-        },
+    "/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      footer: "默认页脚",
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+
     "/en/": {
       // navbar
       navbar: enNavbar,
@@ -49,6 +46,7 @@ export default hopeTheme({
 
       displayFooter: true,
 
+      // page meta
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
@@ -62,12 +60,8 @@ export default hopeTheme({
   //   },
   // },
 
-    // 文件排序
-  sidebarSorter: ["readme", "filename", "order", "title"],
-
   plugins: {
     // You should generate and use your own comment service
-    
     // comment: {
     //   provider: "Giscus",
     //   repo: "vuepress-theme-hope/giscus-discussions",
@@ -76,61 +70,24 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
+    comment:false,
+
+    components: {
+      components: ["Badge", "VPCard"],
+    },
+
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
-      // align: true,
-      // attrs: true,
-
-      footnote:true,
-
-      gfm:true,
-
-      hint:true,
-      // install chart.js before enabling it
-      // chart: true,
-
+      align: true,
+      attrs: true,
       codetabs: true,
-
-      // insert component easily
-      // component: true,
-
+      component: true,
       demo: true,
-
-      // install echarts before enabling it
-      // echarts: true,
-
       figure: true,
-
-      // install flowchart.ts before enabling it
-      // flowchart: true,
-
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
-
       imgLazyload: true,
       imgSize: true,
       include: true,
-
-      // install katex before enabling it
-      // katex: true,
-
-      // install mathjax-full before enabling it
-      mathjax: true,
-
       mark: true,
-
-      // install mermaid before enabling it
-      // mermaid: true,
-
-      playground: {
-        presets: ["ts", "vue"],
-      },
-
-      // install reveal.js before enabling it
-      // revealJs: {
-      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-      // },
-
       stylize: [
         {
           matcher: "Recommended",
@@ -149,68 +106,46 @@ export default hopeTheme({
       tabs: true,
       vPre: true,
 
+      // install chart.js before enabling it
+      // chart: true,
+
+      // insert component easily
+
+      // install echarts before enabling it
+      // echarts: true,
+
+      // install flowchart.ts before enabling it
+      // flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      // gfm: true,
+
+      // install katex before enabling it
+      // katex: true,
+
+      // install mathjax-full before enabling it
+      // mathjax: true,
+
+      // install mermaid before enabling it
+      // mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // install reveal.js before enabling it
+      // revealJs: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
+
       // install @vue/repl before enabling it
       // vuePlayground: true,
+
+      // install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
 
-    docsearch:({
-      appId: "G9OIK8333O",
-      apiKey: "efb5317f69b80cdcabfb520352731e09",
-      indexName: "Doc_comet",
-      locales: {
-        "/": {
-          placeholder: "搜索文档",
-          translations: {
-            button: {
-              buttonText: "搜索文档",
-              buttonAriaLabel: "搜索文档",
-            },
-            modal: {
-              searchBox: {
-                resetButtonTitle: "清除查询条件",
-                resetButtonAriaLabel: "清除查询条件",
-                cancelButtonText: "取消",
-                cancelButtonAriaLabel: "取消",
-              },
-              startScreen: {
-                recentSearchesTitle: "搜索历史",
-                noRecentSearchesText: "没有搜索历史",
-                saveRecentSearchButtonTitle: "保存至搜索历史",
-                removeRecentSearchButtonTitle: "从搜索历史中移除",
-                favoriteSearchesTitle: "收藏",
-                removeFavoriteSearchButtonTitle: "从收藏中移除",
-              },
-              errorScreen: {
-                titleText: "无法获取结果",
-                helpText: "你可能需要检查你的网络连接",
-              },
-              footer: {
-                selectText: "选择",
-                navigateText: "切换",
-                closeText: "关闭",
-                searchByText: "搜索提供者",
-              },
-              noResultsScreen: {
-                noResultsText: "无法找到相关结果",
-                suggestedQueryText: "你可以尝试查询",
-                reportMissingResultsText: "你认为该查询应该有结果？",
-                reportMissingResultsLinkText: "点击反馈",
-              },
-            },
-          },
-        },
-        // "/en/": {
-        //   placeholder: "Search Documentation",
-        //   translations: {
-        //     button: {
-        //       buttonText: "Search Documentation",
-        //     },
-        //   },
-        // },
-      },
-    }),
-
-    // uncomment these if you want a pwa
+    // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,

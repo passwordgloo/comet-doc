@@ -1,21 +1,19 @@
 {
-  "name": "comet",
-  "version": "0.0.9",
-  "description": "textbook and library",
+  "name": "comet-doc",
+  "version": "2.0.0",
+  "description": "library and notebook",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
     "docs:update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-rc.0",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.0",
-    "mathjax-full": "^3.2.2",
-    "vue": "^3.4.5",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-theme-hope": "2.0.0-rc.10"
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "vue": "^3.4.21",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-theme-hope": "2.0.0-rc.29"
   }
 }
