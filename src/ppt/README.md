@@ -1,7 +1,7 @@
 ---
 home: true
 title: Powerpoint
-icon: landmark
+icon: list-tree
 date: 2022-07-30
 heroImage: /logo/ppt.svg
 heroText: PPT
