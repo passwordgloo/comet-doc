@@ -38,6 +38,7 @@ h3::after {
   display: block;
   width: 5rem;
   height: .3rem;
+  margin-top: .4rem;
   background-color: var(--theme-color);
   border-radius: .5rem;
 }
@@ -178,99 +179,6 @@ blockquote img {
   filter: drop-shadow(var(--theme-color) 80px 0);
 }
 
-h2 + blockquote, blockquote[alt="green"] {
-  text-indent: 0em;
-  line-height: inherit;
-  min-height: 1.5rem;
-  margin: 1em 0;
-  padding: 12px 0 8px 10px;
-  border-radius: 6px;
-  border-left: 8px solid transparent;
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-  overflow: hidden;
-  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #00e3ae 0%, #9be15d 100%);
-  color: #00CD66;
-}
-
-/* change svg color */
-h2 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  height: 1rem;
-  margin-right: .2rem;
-  filter: drop-shadow(#00CD66 80px 0);
-}
-
-h3 + blockquote, blockquote[alt="blue"] {
-  text-indent: 0em;
-  line-height: inherit;
-  min-height: 1.5rem;
-  margin: 1em 0;
-  padding: 12px 0 8px 10px;
-  border-radius: 6px;
-  border-left: 8px solid transparent;
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-  overflow: hidden;
-  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #4facfe 0%, #00f2fe 100%);
-  color: #00BFFF;
-}
-
-h3 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  height: 1rem;
-  margin-right: .2rem;
-  filter: drop-shadow(#00BFFF 80px 0);
-}
-
-h4 + blockquote, blockquote[alt="orange"] {
-  text-indent: 0em;
-  line-height: inherit;
-  min-height: 1.5rem;
-  margin: 1em 0;
-  padding: 12px 0 8px 10px;
-  border-radius: 6px;
-  border-left: 8px solid transparent;
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-  overflow: hidden;
-  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #fc6076, #ff9a44);
-  color: #FF8C00;
-}
-
-h4 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  height: 1rem;
-  margin-right: .2rem;
-  filter: drop-shadow(#FF8C00 80px 0);
-}
-
-h5 + blockquote, blockquote[alt="purple"] {
-  text-indent: 0em;
-  line-height: inherit;
-  min-height: 1.5rem;
-  margin: 1em 0;
-  padding: 12px 0 8px 10px;
-  border-radius: 6px;
-  border-left: 8px solid transparent;
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-  overflow: hidden;
-  background-image: linear-gradient(to right, var(--blockquote-color), var(--blockquote-color)), linear-gradient(0deg, #8F41E9, #578AEF);
-  color: #8F41E9;
-}
-
-h5 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  height: 1rem;
-  margin-right: .2rem;
-  filter: drop-shadow(#A531DC 80px 0);
-}
-
 .dropdown-wrapper, a.nav-link, .repo-link, .outlook-icon {
   cursor: url(/light/link.cur), auto;
 }
@@ -282,53 +190,6 @@ html[data-theme=dark] {
 html[data-theme=dark] blockquote {
   background-color: #303030;
   border-left-color: var(--theme-color);
-}
-
-blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  filter: drop-shadow(var(--theme-color) 80px 0);
-  height: 1rem;
-  margin-right: .2rem;
-}
-
-html[data-theme=dark] h2 + blockquote, h2 + blockquote {
-  color: #00CD66;
-  border-left-color: #00CD66;
-}
-
-h2 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  filter: drop-shadow(#00CD66 80px 0);
-  height: 1rem;
-  margin-right: .2rem;
-}
-
-html[data-theme=dark] h3 + blockquote, h3 + blockquote {
-  color: #00BFFF;
-  border-left-color: #00BFFF;
-}
-
-h3 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  filter: drop-shadow(#00BFFF 80px 0);
-  height: 1rem;
-  margin-right: .2rem;
-}
-
-html[data-theme=dark] h4 + blockquote, h4 + blockquote {
-  color: #FF8C00;
-  border-left-color: #FF8C00;
-}
-
-h4 + blockquote img {
-  position: relative;
-  transform: translateX(-80px);
-  filter: drop-shadow(#FF8C00 80px 0);
-  height: 1rem;
-  margin-right: .2rem;
 }
 
 .logo, .site-name, span[property=headline] {
