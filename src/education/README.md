@@ -1,7 +1,7 @@
 ---
 home: true
 title: 教育学
-icon: landmark
+icon: pen-to-square
 date: 2022-07-30
 heroImage: /logo/book.svg
 heroText: 教育
@@ -27,9 +27,9 @@ features:
   #   details: 涅磐重生
   #   link: https://1m29yg5p67.k.topthink.com/@history
 
-  - title: 提示
+  - title: 发展心理学
     icon: star-of-david
-    details: 专题归纳
+    details: 出生到死亡身心发展全过程
     link: /education/psychology/1.html
   # - title: 习近平系列著作
   #   icon: gem

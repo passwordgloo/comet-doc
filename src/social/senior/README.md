@@ -4,6 +4,10 @@ icon: list-timeline
 index: false
 ---
 
+> [!tip]
+>
+> 部分内容与初级社工重复
+
 ## 法律基础
 
 ::: warning 重点章节

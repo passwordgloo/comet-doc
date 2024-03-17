@@ -13,5 +13,6 @@ export const zhSidebar = sidebar({
   "/education/china":"structure",
   "/education/foreign":"structure",
   "/education/principle":"structure",
+  "/education/psychology/":"structure",
   "/ppt/cover/":"structure",
 });
