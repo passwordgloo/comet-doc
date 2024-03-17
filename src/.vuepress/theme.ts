@@ -36,10 +36,8 @@ export default hopeTheme({
     },
 
     "/en/": {
-      // navbar
       navbar: enNavbar,
 
-      // sidebar
       sidebar: enSidebar,
 
       footer: "Default footer",
@@ -76,7 +74,7 @@ export default hopeTheme({
     comment:false,
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","PDF"],
     },
 
     // All features are enabled for demo, only preserve features you need here

@@ -27,11 +27,10 @@ features:
   #   details: 涅磐重生
   #   link: https://1m29yg5p67.k.topthink.com/@history
 
-  # - title: 提示
-  #   icon: lightbulb
-  #   details: 专题归纳
-  #   link: /politics/special/
-
+  - title: 提示
+    icon: star-of-david
+    details: 专题归纳
+    link: /education/psychology/1.html
   # - title: 习近平系列著作
   #   icon: gem
   #   details: 系统论述习近平治国思想
