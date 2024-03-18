@@ -9,7 +9,7 @@ title: 发展心理学
 
 ## 发展的领域
 
-发展心理学对个体发展的研究，综合起来看，主要包含三个领域，即**身体发展**(physical d**e**velopment) 、**认知发展**(cognitive development) 、**心理社会性发展**(psychosocial development)
+发展心理学对个体发展的研究，综合起来看，主要包含三个领域，即**身体发展**(physical development) 、**认知发展**(cognitive development) 、**心理社会性发展**(psychosocial development)
 
 ## 研究个体发展的方法
 
